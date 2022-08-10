@@ -113,7 +113,7 @@ func main() {
 	log.Println("email service created")
 
 	user := "me"
-	to := "mahesh.gupta@rubrik.com"
+	to := "maheshmc2@gmail.com"
 
 	emailTo := "To: " + to + "\r\n"
    	subject := "Subject: " + "Test Email form Gmail API using OAuth" + "\n"
