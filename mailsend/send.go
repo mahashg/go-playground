@@ -129,7 +129,9 @@ func main() {
 
 	if err != nil {
 		log.Fatalf("Unable to send email: %v", err)
-	}	
+	} else {
+		log.Printf("Mail sent successfully")
+	}
 }
 
 // [END gmail_quickstart]
